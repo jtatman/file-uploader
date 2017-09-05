@@ -1,4 +1,5 @@
 // note: investigate using let instead of var on reformat
+// GIVES: SyntaxError: Block-scoped declarations (let, const, function, class) not yet supported outside strict mode
 
 var express = require('express');
 var app = express();

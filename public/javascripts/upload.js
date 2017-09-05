@@ -6,7 +6,7 @@ $('.upload-btn').on('click', function (){
 
 $('#upload-input').on('change', function(){
     
-  var file = $(this).get(0).files;
+  var files = $(this).get(0).files;
   
   if (files.length > 0) {
     // One or more files are selected, then process the file upload...
@@ -31,7 +31,7 @@ $('#upload-input').on('change', function(){
         contentType: false,
         success: function(data){
           console.log('upload successful!\n' + data);
-        };
+        },
         xhr: function() {
           // create XMLHttpRequest
           var xhr = new XMLHttpRequest();
