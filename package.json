@@ -1,0 +1,28 @@
+{
+  "name": "file-uploader",
+  "version": "1.0.0",
+  "description": "file uploader using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtatman/file-uploader.git"
+  },
+  "keywords": [
+    "file",
+    "upload",
+    "nodejs"
+  ],
+  "author": "James Tatman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtatman/file-uploader/issues"
+  },
+  "homepage": "https://github.com/jtatman/file-uploader#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "formidable": "^1.1.1"
+  }
+}
